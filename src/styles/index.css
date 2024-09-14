@@ -1,12 +1,78 @@
+body {
+    background-color: rgba(0, 0, 0, 0.911);
+    color: white;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgba(70, 70, 70, 0.402);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color:rgba(128, 128, 128, 0.194);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #5c5c5c;
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: gray;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: rgba(128, 128, 128, 0.194);
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: rgba(128, 128, 128, 0.502);
+  }
+  
+  span {
+    cursor: pointer;
+    color: rgba(255, 0, 0, 0.799);
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  span:hover {
+    color: red;
+  }
+  h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
